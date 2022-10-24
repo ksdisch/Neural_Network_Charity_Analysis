@@ -6,7 +6,7 @@ The purpose of this analysis was to develop a neural network model from a charit
 ## Results
 
 ### Data Preprocessing
-- Target variable(s): 'IS_SUCCESSFUL' is the only target variable. This model is conducting binary classification to predict whether or not an applicant will be successful if granted the charity. Successful is based on whether the money was used effectively or not.
+- Target variable(s): 'IS_SUCCESSFUL' is the only target variable. This model is conducting binary classification to predict whether an applicant will be successful if granted the charity. Success in this scenario is based on whether the money was used effectively or not.
 - Feature variable(s): 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', 'ASK_AMT'
 - Removed variable(s): 'EIN' and 'NAME' columns were removed as they were identification columns that would not benefit the model. 
 
@@ -38,4 +38,4 @@ Optimization Steps:
 The best accuracy achieved with this model was 72.50% accuracy, with 56.08% loss. 
 
 ### Model Recommendation
-I think a supervised machine learning model would be good for this classification problem. I think this because we know what our desired outputs are and have labels for our input features. I think it would be comparable in terms of performance while being less demanding in terms of resources than a neural network.
+I think a supervised machine learning model would be good for this classification problem. I think this because we know what our desired outputs are and have labels for our input features. It would be comparable in terms of performance while demanding fewer resources than a neural network.
